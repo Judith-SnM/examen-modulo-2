@@ -8,27 +8,15 @@ $(document).ready(function () {
         alert("El Mensaje fue enviado correctamente...");
     })
 
-    let tarjetajq1 = $("#card1")
-    let tarjetajq2 = $("#card2")
-    let tarjetajq3 = $("#card3")
-    let tarjetajq4 = $("#card4")
-    let texto1 = $("#texto1")
-    let texto2 = $("#texto2")
-    let texto3 = $("#texto3")
-    let texto4 = $("#texto4")
+    let titulojq1 = $("#tex1")
+    let titulojq2 = $("#tex2")
     
-    tarjetajq1.dblclick(function () {
-      texto1.addClass("text-danger")
+       
+    titulojq1.click(function () {
+      titulojq1.addClass("text-danger")
     })
-
-    tarjetajq2.dblclick(function () {
-      texto2.addClass("text-danger")
-    })
-    tarjetajq3.dblclick(function () {
-      texto3.addClass("text-danger")
-    })
-    tarjetajq4.dblclick(function () {
-      texto4.addClass("text-danger")
+    titulojq2.click(function () {
+      titulojq2.addClass("text-danger")
     })
 
     let Contactojq = $("#titulo")
